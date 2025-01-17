@@ -1,0 +1,323 @@
+/* Estilo global */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: #f6f5fa;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+/* Estilo do cabeçalho */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #e9f4f8;
+  border-bottom: 1px solid #d3f1f9;
+  box-shadow: 0 2px 5px rgba(14, 14, 14, 0.1);
+}
+
+.imagem-title{
+  text-align: center;
+  color: green;
+}
+
+
+
+/* Estilo do logotipo */
+.logo img {
+  height: 50px;
+}
+
+/* Estilo da navegação */
+.navigation .nav-menu {
+  display: flex;
+  gap: 20px;
+}
+
+.navigation .nav-menu li {
+  display: inline-block;
+}
+
+.navigation .nav-menu li a {
+  font-size: 16px;
+  padding: 8px 12px;
+  border-radius: 4px;
+  transition: background-color 0.3s;
+}
+
+.navigation .nav-menu li a:hover {
+  background-color: #80f994;
+}
+
+/* Estilos globais */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+}
+
+a {
+  text-decoration: none;
+  color: #0d0e0e;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Estilo da seção principal */
+.hero-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  background-color: hsl(195, 73%, 81%);
+  min-height: 80vh; /* Altura mínima da seção */
+}
+
+.hero-content {
+  max-width: 50%;
+}
+
+.hero-content h1 {
+  font-size: 2.5rem;
+  color: #21c021;
+  margin-bottom: 10px;
+}
+
+.hero-content p {
+  font-size: 1.2rem;
+  color: #1a1f1b;
+  margin-bottom: 20px;
+}
+
+.cta-button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #865ef2;
+  border-radius: 5px;
+  font-size: 1rem;
+  transition: background-color 0.3s;
+}
+
+.cta-button:hover {
+  background-color: #7ea2f7;
+}
+
+/* Estilo da imagem */
+.hero-image {
+  max-width: 45%;
+}
+
+.hero-image img {
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(88, 144, 112, 0.2);
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+  .hero-section {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .hero-content {
+    max-width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .hero-image {
+    max-width: 100%;
+  }
+}
+
+
+/* Estilos globais */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+section {
+  padding: 40px 20px;
+  background-color: #edf1f0;
+  border-bottom: 1px solid hsl(150, 7%, 94%);
+}
+
+/* Seção de Serviços */
+.services-container {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+
+.service {
+  background: hsl(210, 17%, 98%);
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(14, 14, 14, 0.1);
+  text-align: center;
+  flex: 1;
+}
+
+/* Seção de Planos/Preços */
+.pricing-container {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+
+.plan {
+  background: hsl(180, 8%, 97%);
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  flex: 1;
+}
+
+.plan button {
+  padding: 10px 20px;
+  background-color: #0fed7a;
+  color: rgb(12, 12, 12);
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.plan button:hover {
+  background-color: #111111;
+}
+
+/* Seção de Depoimentos */
+.testimonials-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.testimonial {
+  background: #fafafc;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  max-width: 600px;
+  text-align: center;
+}
+
+/* Galeria de Imagens */
+.gallery-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 10px;
+}
+
+.gallery-container img {
+  width: 100%;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+  .services-container,
+  .pricing-container {
+    flex-direction: column;
+    gap: 20px;
+  }
+}
+
+/* Estilos globais */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Estilo do Rodapé */
+.footer {
+  background-color: hwb(300 68% 11%);
+  color: hsl(329, 70%, 94%);
+  padding: 20px;
+  text-align: center;
+}
+
+.footer-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.contact-info,
+.social-links {
+  flex: 1;
+  min-width: 250px;
+}
+
+h4 {
+  margin-bottom: 10px;
+  font-size: 1.2rem;
+  color: #0c0d0c;
+}
+
+p {
+  margin: 5px 0;
+  font-size: 0.9rem;
+  color: hwb(180 5% 94%);
+}
+
+/* Estilo dos Links para Redes Sociais */
+.social-links a {
+  display: block;
+  color: hsl(0, 0%, 6%);
+  margin: 5px 0;
+  font-size: 1rem;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.social-links a:hover {
+  color: #00aced;
+}
+
+/* Estilo da linha inferior do rodapé */
+.footer-bottom {
+  margin-top: 20px;
+  font-size: 0.8rem;
+  color: #aaa;
+  border-top: 1px solid #837f7f;
+  padding-top: 10px;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+  .footer-container {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
